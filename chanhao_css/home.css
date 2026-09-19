@@ -1,8 +1,18 @@
+html, body
+{
+    background-color: var(--base);
+}
+
 .app-container
 {
     display: flex;
     height: 100vh;
     width: 100vw;
+}
+
+.profile-name
+{
+    color: var(--text-color);
 }
 
 .sidebar
@@ -11,16 +21,97 @@
     flex-direction: column;
     height: 100%;
     width: 240px;
+    box-sizing: border-box;
+    border-right: 1px solid var(--line-color);
+}
+
+.sidebar-top-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.profile-picture
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 100%;
+    border: 2px solid var(--line-color);
+}
+
+.social-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.2rem;
+}
+
+.social-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+}
+
+.social-icon
+{
+    height: 1.5rem;
+    width: 1.5rem;
+    object-fit: contain;
+}
+
+.instagram
+{
+    height: 1.8rem;
+    width: 1.8rem;
+    object-fit: contain;
+}
+
+.linkedin
+{
+    height: 1.9rem;
+    width: 1.9rem;
+    object-fit: contain;
+}
+
+.sidebar-menu-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+.sidebar-menu-container > a
+{
+    color: var(--text-color);
+    border-top: 1px solid var(--line-color);
+    padding: 20px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar-menu-container > a:hover
+{
+    color: white;
+    background-color: var(--line-color);
+}
+
+.sidebar-menu-container > a:nth-child(4)
+{
+    border-bottom: 1px solid var(--line-color);
 }
 
 .main-container
 {
     flex: 1;
-}
-
-.profile
-{
-    height: 120px;
-    width: 120px;
-    border-radius: 20px;
+    box-sizing: border-box;
+    margin-left: 100px;
 }

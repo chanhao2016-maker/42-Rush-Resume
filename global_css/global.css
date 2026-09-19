@@ -1,0 +1,12 @@
+:root
+{
+    --base : aliceblue;
+    --line-color: #457b9d;
+    --text-color: #1d3557;
+}
+
+html, body
+{
+    margin: 0;
+    scroll-behavior: smooth;
+}
