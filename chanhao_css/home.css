@@ -1,0 +1,26 @@
+.app-container
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 240px;
+}
+
+.main-container
+{
+    flex: 1;
+}
+
+.profile
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}

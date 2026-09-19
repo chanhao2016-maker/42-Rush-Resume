@@ -1,0 +1,39 @@
+html, body
+{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color: var(--line-color);
+}
+
+.resume-h1
+{
+    font-size: 60px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    gap: 20px;
+}
+
+.resume-btn-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+.resume-btn
+{
+    border: 2px solid var(--line-color); 
+    padding: 20px;
+    font-size: 16px;
+}
