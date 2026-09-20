@@ -1,12 +1,13 @@
 html, body
 {
     background-color: var(--base);
+    color: var(--text-color);
 }
 
 .app-container
 {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 
@@ -19,10 +20,10 @@ html, body
 {
     display: flex;
     flex-direction: column;
-    height: 100%;
     width: 240px;
     box-sizing: border-box;
     border-right: 1px solid var(--line-color);
+    position: fixed;
 }
 
 .sidebar-top-container
@@ -113,5 +114,7 @@ html, body
 {
     flex: 1;
     box-sizing: border-box;
-    margin-left: 100px;
+    margin: 80px;
+    margin-left: 340px;
+    margin-right: 100px;
 }
