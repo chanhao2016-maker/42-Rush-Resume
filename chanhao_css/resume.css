@@ -8,6 +8,11 @@
     display: flex;
     flex-direction: column;
 }
+
+.resume-second-container h2
+{
+    align-self: flex-start;
+}
 .resume-small-container
 {
     display: flex;

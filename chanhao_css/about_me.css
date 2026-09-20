@@ -13,6 +13,7 @@
 .about-details
 {
     display: flex;
+    font-weight: bold;
 }
 
 .about-details-1

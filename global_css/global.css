@@ -10,3 +10,17 @@ html, body
     margin: 0;
     scroll-behavior: smooth;
 }
+
+h1
+{
+    border-left: 2px solid var(--line-color);
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+h2
+{
+    display: inline-block;
+    border-bottom: 2px solid var(--line-color);
+    padding-bottom: 10px;
+}

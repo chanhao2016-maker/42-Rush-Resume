@@ -24,6 +24,7 @@ html, body
     box-sizing: border-box;
     border-right: 1px solid var(--line-color);
     position: fixed;
+    min-height: 100vh;
 }
 
 .sidebar-top-container
@@ -114,7 +115,17 @@ html, body
 {
     flex: 1;
     box-sizing: border-box;
-    margin: 80px;
     margin-left: 340px;
     margin-right: 100px;
+}
+
+.main-container > div
+{
+    padding-top: 80px;
+}
+
+.sidebar-menu-container > a.active
+{
+    color: white;
+    background-color: var(--line-color);
 }
