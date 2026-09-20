@@ -1,0 +1,15 @@
+.resume-container
+{
+    display: flex;
+}
+
+.resume-second-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.resume-small-container
+{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,18 @@
+.contact-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-list-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.whatsapp-qr
+{
+    height: 16rem;
+    width: 16rem;
+    object-fit: contain;
+}
