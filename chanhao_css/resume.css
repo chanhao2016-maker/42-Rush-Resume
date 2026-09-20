@@ -1,20 +1,46 @@
 .resume-container
 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .resume-second-container
 {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .resume-second-container h2
 {
-    align-self: flex-start;
+    width: fit-content;
+    margin-bottom: 2.6rem;
 }
+
+.resume-small-container h3,
+.resume-small-container p
+{
+    margin: 0;
+}
+
+
 .resume-small-container
 {
     display: flex;
     flex-direction: column;
+    gap: 0.8rem;
+}
+
+.resume-border-container
+{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--line-color);
+    padding-left: 2rem;
+    gap: 3rem;
+}
+
+.education
+{
+    margin-left: -4.6rem;
 }

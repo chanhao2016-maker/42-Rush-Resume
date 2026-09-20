@@ -114,4 +114,5 @@ html, body
     flex: 1;
     box-sizing: border-box;
     margin-left: 100px;
+    max-width: 1000px;
 }

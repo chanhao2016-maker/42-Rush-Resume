@@ -1,6 +1,9 @@
 .about-main-container
 {
     display: flex;
+    margin-bottom: 50px;
+    justify-content: flex-start;
+    gap: 2rem;
 }
 
 .about-pic
@@ -14,6 +17,10 @@
 {
     display: flex;
     font-weight: bold;
+    justify-content: flex-start;
+    gap: 3.8rem;
+    margin-top: 0.6rem;
+    font-size: 1.1rem;
 }
 
 .about-details-1
@@ -32,15 +39,30 @@
 {
     display: flex;
     flex-direction: column;
+    gap: 2.5rem;
 }
 
 .single-container
 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px minmax(0, 600px);
+    align-items: center;
+    gap: 6rem;
+}
+
+.single-container > div
+{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.6rem;
+    text-align: center;
+    min-width: 3rem;
 }
 
 .single-container p
 {
-    max-width: 45rem;
+    max-width: 50rem;
     line-height: 1.6;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
 }
