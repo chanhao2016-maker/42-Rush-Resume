@@ -119,3 +119,14 @@ html, body
     margin-left: 340px;
     margin-right: 100px;
 }
+
+.main-container > div
+{
+    padding-top: 2rem;
+}
+
+.sidebar-menu-container > a.active
+{
+    color: white;
+    background-color: var(--line-color);
+}

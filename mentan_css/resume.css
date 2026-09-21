@@ -1,12 +1,14 @@
 .resume-container
 {
     display: flex;
+    min-height: 100vh;
 }
 
 .resume-second-container
 {
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 .resume-small-container
 {
